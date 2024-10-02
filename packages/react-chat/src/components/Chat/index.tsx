@@ -116,6 +116,7 @@ const Chat: React.FC<ChatProps> = ({
       <Header title={title} image={image} actions={actions} />
       <Dialog ref={dialogRef}>
         <AutoScrollProvider target={dialogRef}>
+          <Spacer />
           <AssistantInfo title={title} avatar={avatar} description={description} />
           <Spacer />
           {!!timestamp && !!state.session.turns.length && <SessionTime>{timestamp}</SessionTime>}
@@ -134,8 +135,8 @@ const Chat: React.FC<ChatProps> = ({
       />
       <Overlay />
       <Prompt
-        accept={{ label: 'End Chat', type: 'warn', onClick: chain(onEnd, handleResume) }}
-        cancel={{ label: 'Cancel', onClick: handleResume }}
+        accept={{ label: 'Avsluta chatt', type: 'warn', onClick: chain(onEnd, handleResume) }}
+        cancel={{ label: 'Fortsätt', onClick: handleResume }}
       />
     </Container>
   );

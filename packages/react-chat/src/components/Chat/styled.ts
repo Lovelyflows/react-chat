@@ -29,7 +29,8 @@ export const Container = styled(tag('article'), {
   display: 'flex',
   overflow: 'hidden',
   flexDirection: 'column',
-  backgroundColor: '$white',
+  backdropFilter: 'blur(30px)',
+  backgroundColor: '$seeThrough',
 
   [`& > ${Loader}`]: {
     margin: 'auto',

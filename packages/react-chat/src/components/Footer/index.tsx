@@ -65,11 +65,11 @@ const Footer: React.FC<FooterProps> = ({
   return (
     <Container withShadow={!!hasEnded} withWatermark={withWatermark}>
       {hasEnded ? (
-        <Button onClick={onStart}>Start New Chat</Button>
+        <Button onClick={onStart}>Starta ny chatt</Button>
       ) : (
         <ChatInput
           value={message}
-          placeholder="Message…"
+          placeholder="Meddelande..."
           autoFocus
           onValueChange={setMessage}
           onSend={handleSend}

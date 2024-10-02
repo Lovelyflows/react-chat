@@ -2,7 +2,7 @@ import { ClassName } from '@/constants';
 import { tagFactory } from '@/hocs';
 import { rotate, styled } from '@/styles';
 
-const SIZE = 32;
+const SIZE = 24;
 const ANIMATION_DURATION = 1000;
 
 const tag = tagFactory(ClassName.LOADER);

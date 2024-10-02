@@ -5,7 +5,7 @@ import { styled } from '@/styles';
 
 export const textareaUniqueStyles: CSS = {
   width: 'calc(100% - 42px)',
-  borderRadius: '$1 0 0 $1',
+  borderRadius: '$3 0 0 $3',
   height: '42px',
   borderRightWidth: 0,
   fontFamily: '$default',

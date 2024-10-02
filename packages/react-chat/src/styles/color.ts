@@ -29,6 +29,7 @@ export const PALETTE = {
   lightGrey: '#f4f4f4',
   medGrey: '#dfdfdf',
   darkGrey: '#737376',
+  seeThrough: 'hsla(0,0%,100%,.7)',
   blue: PRIMARY,
   warn: WARN,
   darkWarn: chroma(WARN).darken(0.25).hex(),

@@ -57,6 +57,7 @@ export const getDefaultTheme = () => ({
     radii: {
       1: '8px',
       2: '10px',
+      3: '18px',
       round: '50%',
     },
   },

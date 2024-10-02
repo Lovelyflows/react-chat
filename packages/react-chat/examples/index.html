@@ -2,6 +2,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Example Page</title>
     <style>
       body {
@@ -34,7 +35,23 @@
             mode: 'overlay',
           },
           autostart: true,
-          allowDangerousHTML: false,
+          allowDangerousHTML: true,
+        }).then(() => {
+          window.voiceflow.chat.proactive.clear(); // clear all previous messages
+          
+          setTimeout(() => {
+            window.voiceflow.chat.proactive.push({ 
+              type: 'text', 
+              payload: { message: 'Har du frågor?' }
+            });
+          }, 10000);
+
+          setTimeout(() => {
+            window.voiceflow.chat.proactive.push({ 
+              type: 'text', 
+              payload: { message: 'Chatta med oss!' }
+            });
+          }, 12000);
         });
       }
     </script>

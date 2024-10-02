@@ -15,9 +15,9 @@ export const useTimestamp = (startTime?: Nullish<number>) => {
 
     switch (true) {
       case now.isSame(start, 'day'):
-        return 'Today';
+        return 'Idag';
       case now.subtract(1, 'day').isSame(start, 'day'):
-        return 'Yesterday';
+        return 'Igår';
       default:
         return start.fromNow();
     }

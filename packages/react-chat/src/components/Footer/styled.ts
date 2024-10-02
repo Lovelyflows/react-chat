@@ -7,8 +7,10 @@ import { styled } from '@/styles';
 const tag = tagFactory(ClassName.FOOTER);
 
 export const Container = styled(tag('footer'), {
-  padding: '$3 $4 $4 $4',
-  borderRadius: '$1',
+  padding: '$3',
+  borderRadius: '0 0 $1 $1',
+  backgroundColor: '$white',
+  boxShadow: '0 -1px 5px $shadow12',
 
   [`& ${Input.Container}`]: {
     flex: 1,

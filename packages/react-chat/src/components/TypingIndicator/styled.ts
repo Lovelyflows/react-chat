@@ -11,8 +11,8 @@ export const Container = styled(tag('span'), {
 });
 
 export const Dot = styled(tag('span', 'dot'), {
-  height: 8,
-  width: 8,
+  height: 18,
+  width: 18,
   margin: '0 2px',
   borderRadius: '$round',
   backgroundColor: '#adadb3',

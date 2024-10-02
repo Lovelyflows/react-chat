@@ -11,7 +11,8 @@ const tag = tagFactory(ClassName.HEADER);
 export const Title = styled(tag('h1', 'title'), {
   ...textOverflowStyles,
   typo: { size: 17, weight: '$2', height: '$2' },
-  color: 'rgba(255,255,255,0.95)',
+  color: '$black',
+  visibility: 'hidden',
 });
 
 export const Button = styled(tag(BaseButton.Reset, 'button'), {
@@ -26,17 +27,17 @@ export const Button = styled(tag(BaseButton.Reset, 'button'), {
   trans: ['background-color'],
 
   '&:hover': {
-    backgroundColor: 'rgba(255,255,255,0.16)',
+    backgroundColor: 'rgba(0,0,0,0.05)',
 
     [`& ${Icon.Frame}`]: {
-      color: '$white',
+      color: '$black',
     },
   },
 
   [`& ${Icon.Frame}`]: {
     height: '$xxs',
     width: '$xxs',
-    color: 'rgba(255,255,255,0.8)',
+    color: 'rgba(0,0,0,0.8)',
     trans: ['color'],
   },
 });
@@ -47,12 +48,13 @@ export const Container = styled(tag('header'), {
   alignItems: 'center',
   height: '$lg',
   padding: '0 $4 0 $5',
-  backgroundColor: '$primary',
-  boxShadow: '0 1px 2px $shadow16',
+  backgroundColor: '$white',
+  boxShadow: '0 1px 5px $shadow12',
 
   [`& ${Avatar.Container}`]: {
-    height: 32,
-    width: 32,
+    width: '100%',
+    maxWidth: 150,
+    backgroundSize: 'contain',
   },
 
   [`& ${Title}`]: {

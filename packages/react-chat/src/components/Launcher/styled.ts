@@ -9,12 +9,12 @@ export const Button = styled(tag('button'), {
   justifyContent: 'center',
   alignItems: 'center',
   borderRadius: '$round',
-  backgroundColor: '$primary',
+  backgroundColor: '$white',
   trans: ['background-color', 'box-shadow'],
 
-  height: '$xl',
-  width: '$xl',
-  border: '1px solid $shadow4',
+  height: '$xxl',
+  width: '$xxl',
+  border: 'none',
   boxShadow: '0 1px 6px $shadow6, 0 2px 24px $shadow8',
 
   '&:focus': {
@@ -22,7 +22,7 @@ export const Button = styled(tag('button'), {
   },
   '&:hover': {
     cursor: 'pointer',
-    backgroundColor: '$darkPrimary',
+    backgroundColor: '$lightGrey',
   },
 
   '& > img': {
