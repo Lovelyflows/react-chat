@@ -7,10 +7,18 @@
       body {
         background-color: #f9f9f9;
       }
+      #flat-chat {
+        width: 500px;
+        height: 80%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
     </style>
   </head>
   <body>
-
+    <div id="flat-chat"></div>
     <script type="text/javascript">
       (function(d, t) {
           var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -18,7 +26,11 @@
             window.voiceflow.chat.load({
               verify: { projectID: '66f2a4975b495ead28f4017e' },
               url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production'
+              versionID: 'production',
+              render: {
+                mode: 'embedded',
+                target: document.getElementById('flat-chat')
+              },
             }).then(() => {
               window.voiceflow.chat.proactive.clear();
               
