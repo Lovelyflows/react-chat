@@ -1,0 +1,30 @@
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[33mThe CJS build of Vite's Node API is deprecated. See https://vitejs.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+[43m[30m WARN [39m[49m [33mplugin 'vite-plugin-fonts' uses deprecated 'enforce' option. Use 'order' option instead.[39m    [90m20:02:27[39m
+
+
+[43m[30m WARN [39m[49m [33mplugin 'vite-plugin-fonts' uses deprecated 'transform' option. Use 'handler' option instead.[39m
+
+[36mvite v5.2.9 [32mbuilding for production...[36m[39m                                                             [90m20:02:27[39m
+[2K[1Gtransforming (1) [2msrc/index.tsx[22m[2K[1Gtransforming (43) [2m../sdk-runtime/build/esm/trace/trace.service.js[22m[2K[1Gtransforming (74) [2m../../node_modules/@voiceflow/base-types/build/esm/request/index.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (187) [2m../../node_modules/@voiceflow/base-types/build/esm/node/component.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (407) [2m../../node_modules/@voiceflow/common/build/esm/crypto/hex2abc.js[22m
+[43m[30m WARN [39m[49m [33mplugin 'vite-plugin-fonts' uses deprecated 'enforce' option. Use 'order' option instead.[39m    [90m20:02:28[39m
+
+
+[43m[30m WARN [39m[49m [33mplugin 'vite-plugin-fonts' uses deprecated 'transform' option. Use 'handler' option instead.[39m
+
+[2K[1Gtransforming (479) [2m../../node_modules/lodash/_arrayMap.js[22m[36mvite v5.2.9 [32mbuilding for production...[36m[39m                                                             [90m20:02:28[39m
+[2K[1Gtransforming (765) [2m../../node_modules/bowser/src/constants.js[22m[2K[1Gtransforming (805) [2m../../node_modules/clsx/dist/clsx.m.js[22m[2K[1Gtransforming (810) [2msrc/components/Timestamp/index.tsx[22m[2K[1Gtransforming (844) [2msrc/components/ChatInput/AudioInputButton.tsx[22m[2K[1Gtransforming (888) [2msrc/components/Message/DebugMessage/styled.ts[22m[2K[1Gtransforming (985) [2m../../node_modules/micromark-extension-gfm-table/lib/html.js[22m[2K[1Gtransforming (1083) [2m../../node_modules/parse5/dist/common/doctype.js[22m[2K[1G[32m✓[39m 1226 modules transformed.                                                                        [90m20:02:30[39m
+[2K[1Grendering chunks (1)...[2K[1G[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mdist/[22m[35mstyle.css   [39m[1m[2m    0.00 kB[22m[1m[22m[2m │ gzip:   0.02 kB[22m                                                     [90m20:02:30[39m
+[2mdist/[22m[36mbundle.mjs  [39m[1m[33m1,253.07 kB[39m[22m[2m │ gzip: 388.66 kB[22m                                                     [90m20:02:30[39m
+[32m✓ built in 3.19s[39m                                                                                   [90m20:02:30[39m
+[2K[1Gtransforming (1) [2msrc/package.entry.ts[22m[2K[1Gtransforming (15) [2msrc/common/utils.ts[22m[2K[1Gtransforming (21) [2msrc/components/ChatInput/index.tsx[22m[2K[1Gtransforming (39) [2m../../node_modules/remeda/dist/es/index.js[22m[2K[1Gtransforming (52) [2msrc/views/ChatWindow/index.tsx[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (171) [2msrc/components/SystemResponse/SystemMessage.tsx[22m[2K[1Gtransforming (182) [2m../../node_modules/chroma-js/chroma.js[22m[2K[1Gtransforming (207) [2m../../node_modules/@voiceflow/voiceflow-types/build/cjs/version/chat/publishing.js[2[2K[1Gtransforming (269) [2msrc/hooks/useStorage.ts[22m[2K[1Gtransforming (397) [2m../../node_modules/@voiceflow/dtos-interact/build/esm/action/action.dto.js[22m[2K[1Gtransforming (537) [2m../../node_modules/web-namespaces/index.js[22m[2K[1G[2K[1G[2K[1G[2K[1G[2K[1Gtransforming (612) [2m../sdk-runtime/build/esm/trace/components/cardV2.component.js[22m[2K[1Gtransforming (739) [2m../../node_modules/lodash/isArray.js[22m[2K[1Gtransforming (868) [2m../../node_modules/hastscript/lib/svg-case-sensitive-tag-names.js[22m[2K[1G[32m✓[39m 1204 modules transformed.                                                                        [90m20:02:40[39m
+[2K[1Grendering chunks (1)...[2K[1G[32m                                                                                                   [90m20:02:41[39m
+[36m[vite:dts][32m Start generate declaration files...[39m
+[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mbuild/[22m[35mstyle.css    [39m[1m[2m    0.00 kB[22m[1m[22m[2m │ gzip:   0.02 kB[22m                                                   [90m20:02:41[39m
+[2mbuild/[22m[36mindex.es.js  [39m[1m[33m1,147.39 kB[39m[22m[2m │ gzip: 288.26 kB[22m                                                   [90m20:02:41[39m
+[32m[36m[vite:dts][32m Declaration files built in 10817ms.                                                     [90m20:02:41[39m
+[39m
+[2K[1Grendering chunks (1)...[2K[1G[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mbuild/[22m[35mstyle.css     [39m[1m[2m  0.00 kB[22m[1m[22m[2m │ gzip:   0.02 kB[22m                                                    [90m20:02:41[39m
+[2mbuild/[22m[36mindex.cjs.js  [39m[1m[33m784.10 kB[39m[22m[2m │ gzip: 244.28 kB[22m                                                    [90m20:02:41[39m
+[32m✓ built in 13.16s[39m                                                                                  [90m20:02:41[39m
